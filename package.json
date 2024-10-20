@@ -106,7 +106,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "npx tailwindcss -i ./input.css -o ./src/output.css --watch"
+    "dev": "npx tailwindcss -i ./input.css -o ./style.css --watch"
   },
   "author": "",
   "license": "ISC"
