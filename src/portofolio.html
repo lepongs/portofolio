@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  <link rel="stylesheet" href="./output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="font-poppins bg-[#f4f4f4] ">
+  <nav class="w-full bg-[#201C1C]/80 text-white sm:text-lg flex flex-wrap fixed top-0 py-5 px-8 justify-center sm:justify-end gap-x-5 sm:gap-x-12">
+      <a href="#about" class="hover:opacity-60">
+          about me
+      </a>
+      <a href="#projects" class="hover:opacity-60">
+          projects
+      </a>
+      <a href="#contacts" class="hover:opacity-60">
+          contacts
+      </a>
+  </nav>
+  <header style="background-image: url('../assets/Pixabay-1873854.png')">
+    <div class="px-12 py-20 pt-32 sm:py-40 sm:pt-52" id="contacts">
+      <p class="text-white text-3xl sm:text-4xl font-bold">Hi, I'm Pahlevi</p>
+      <p class="text-white mb-16 sm:mb-32 text-xl sm:text-xl font-semibold">I make websites</p>
+      <p class="text-white font-medium sm:text-lg">works and contacts:</p>
+      <span class="text-white flex gap-6 w-100 text-xl sm:text-2xl">
+        <a class="hover:opacity-60" href="https://github.com/lepongs">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="hover:opacity-60" href="mailto:leponging@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a class="hover:opacity-60" href="https://linkedin.com/in/muhammad-maulidhan-pahlevi">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </span>
+    </div>
+  </header>
+
+  <main class="p-4">
+    <section class="m-4" id="about">
+      <h1 class="font-bold text-3xl sm:text-4xl mb-4">A bit about me</h1>
+      <p class="text-justify">I am a passionate person who is interested in the world of technology. when i was little, i dream to be someone who is skillful at IT.</p>
+    </section>
+
+    <section class="m-4 my-16">
+      <h1 class="font-bold text-3xl sm:text-4xl mb-8 text-center">My Skills</h1>
+      <div class="grid grid-cols-2 gap-10 sm:flex w-100 justify-evenly font-semibold">
+        <div class="grid grid-row-2 place-items-center transition hover:scale-125">
+          <img src="../assets/html.png" alt="html">
+          <p>HTML</p>
+        </div>
+        <div class="grid grid-row-2 place-items-center transition hover:scale-125">
+          <img src="../assets/laravel.png" alt="Laravel">
+          <p>Laravel</p>
+        </div>
+        <div class="grid grid-row-2 place-items-center transition hover:scale-125">
+          <img src="../assets/figma.png" alt="Figma">
+          <p>Figma</p>
+        </div>
+        <div class="grid grid-row-2 place-items-center transition hover:scale-125">
+          <img src="../assets/mysql.png" alt="MySQL">
+          <p>MySQL</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col m-4 mb-16 items-center" id="projects">
+      <h1 class="font-bold text-3xl sm:text-4xl mb-8 text-center">Projects that i had worked on</h1>
+      <div class="bg-white p-4 rounded-md shadow-xl sm:w-1/2 w-auto">
+        <img class="rounded-t-md w-full" src="../assets/code-1076536_1280.jpg" alt="project">
+        <p class="font-semibold text-2xl my-4">BK Sahabat Siswa</p>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem labore dolorum voluptas nemo nam et tempora accusamus mollitia at iste.</p>
+        <a class="hover:opacity-75" href="https://github.com/Lattelienz/BK-SahabatSiswa">code <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-black p-6 py-10 text-white flex justify-between items-center font-light">
+    <div>
+      <p class="underline underline-offset-8 mb-1">contact</p>
+      <a class="hover:opacity-60" href="https://linkedin.com/in/muhammad-maulidhan-pahlevi">linkedin</a><a> |</a>
+      <a class="hover:opacity-60" href="mailto:leponging@gmail.com">email me</a>
+    </div>
+    <p>Pahlevi © 2024</p>
+  </footer>
+
+</body>
+</html>
